@@ -99,7 +99,7 @@ int main(void)
     {
         if (g_systickCounter == 0)
         {
-            g_systickCounter = 500;
+            g_systickCounter = 200;
             GPIO_PortToggle(BOARD_LED_GPIO, 1u << BOARD_LED_GPIO_PIN);
         }
     }
